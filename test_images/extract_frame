@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# https://stackoverflow.com/a/10962408/9312806
+
+ffmpeg -i ./video/bad_apple_5m.mp4 "$filename%04d.png"
+
